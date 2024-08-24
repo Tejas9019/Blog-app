@@ -1,0 +1,79 @@
+/* General List Styling */
+.post-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* List Title */
+.post-list h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+/* List Items */
+.post-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-list li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-list li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Post Title */
+.post-list h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.post-list h3:hover {
+    color: #0056b3;
+}
+
+/* Post Excerpt */
+.post-list p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post-list {
+        padding: 15px;
+    }
+
+    .post-list h2 {
+        font-size: 20px;
+    }
+
+    .post-list li {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .post-list h3 {
+        font-size: 18px;
+    }
+}
