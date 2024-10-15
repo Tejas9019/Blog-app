@@ -1,4 +1,4 @@
-# All the necessary libraries to be installed
+# All the necessary libraries to be installed and run it
 
 from flask import Flask, jsonify, request, send_from_directory
 from flask_sqlalchemy import SQLAlchemy
