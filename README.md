@@ -23,7 +23,7 @@ This is a full-stack blog application built using Flask for the backend and Reac
 blog-project/
 │
 ├── backend/                   # Flask backend
-│   ├── app.py                 # Main Flask application
+│   ├── app.py                 # Main Flask application to run
 │   ├── models.py              # SQLAlchemy models
 │   ├── routes.py              # API routes
 │   ├── templates/             # HTML templates for Flask
